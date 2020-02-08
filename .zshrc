@@ -5,8 +5,8 @@ export ZSH="/Users/spikeburton/.oh-my-zsh"
 
 # Set name of the theme to load
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="norm"
-# ZSH_THEME="amuse"
+ZSH_THEME="amuse"
+# ZSH_THEME="norm"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -53,7 +53,6 @@ fi
 export VAGRANT_DEFAULT_PROVIDER="virtualbox"
 alias vu="time vagrant up"
 alias vh="vagrant halt"
-alias vd="vagrant destroy -f"
 alias vssh="vagrant ssh"
 
 # Docker Compose
@@ -72,3 +71,6 @@ alias tf="terraform"
 # mongo and rabbitmq
 export PATH="/usr/local/opt/mongodb-community@3.6/bin:$PATH"
 export PATH=$PATH:/usr/local/opt/rabbitmq/sbin
+
+# brew
+export PATH="/usr/local/sbin:$PATH"
